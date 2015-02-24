@@ -1,14 +1,38 @@
+.food {
+	height: 100px;
+	width: 200px;
+	margin: 10px 10px;
+}
+
+.logo {
+	height: 250px;
+	width: 650px;
+}
+
+h2,
+h3,
+p {
+	font-family: 'Crimson Text', serif;
+}
+
+
+h1 {
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+	background: #2CCDDD;
+}
+
 /*Mobile*/
 @media (max-width: 480px) {
 	body {
-		background: teal;
+		background: #2CCDDD;
 	}
 }
 
 /*Tablet*/
 @media (min-width: 768px) {
 	body {
-		background: yellow;
+		background: #1597BA;
 	}
 }
 
@@ -16,6 +40,6 @@
 /*Desktop*/
 @media (min-width: 992px) {
 	body {
-		background: red;
+		background: #2D69B2;
 	}
 }
