@@ -2,6 +2,7 @@
 	height: 100px;
 	width: 200px;
 	margin: 10px 10px;
+	border: black solid 2px;
 }
 
 .logo {
@@ -9,17 +10,38 @@
 	width: 650px;
 }
 
+h1,
 h2,
 h3,
+h4,
 p {
 	font-family: 'Crimson Text', serif;
+}
+
+h2,
+h3 {
+	text-indent: 100px;
 }
 
 
 h1 {
 	text-align: center;
+	background: #1BBCDD;
+	border: black solid 6px;
+}
+
+.text li {
 	font-family: 'Crimson Text', serif;
-	background: #2CCDDD;
+	line-height: 1em;
+}
+
+.revealBox {
+	width: 250px;
+	height: 200px;
+	background: #3CDCDc;
+	text-align: center;
+	border: black solid 5px;
+
 }
 
 /*Mobile*/
